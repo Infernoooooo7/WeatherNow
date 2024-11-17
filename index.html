@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aesthetic Weather Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>🌌 Weather Finder</h1>
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name...">
+            <button onclick="getWeather()">Search</button>
+        </div>
+        <div class="weather-result" id="weather-result">
+            <h2 id="city-name">City</h2>
+            <div class="weather-info">
+                <span id="weather-emoji">☀️</span>
+                <span id="temperature">--°C</span>
+            </div>
+            <p id="weather-description">Weather Description</p>
+            <p id="humidity">Humidity: --%</p>
+            <p id="wind-speed">Wind Speed: -- m/s</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
